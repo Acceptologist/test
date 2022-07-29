@@ -20,14 +20,14 @@
 }
 </style>
 <body >
-    <form class="form" id="whatsupForm" action="https://wa.me/201097309648">
-        <div class="form-group">
+    <form class="form row" id="whatsupForm" action="https://wa.me/201097309648">
+        <div class="form-group text-center text-middle">
         <label for="name">Name : </label>
         <input  id="name" />
     </div>
         <br />
         <br />
-        <div class="form-group">
+        <div class="form-group text-center">
 
         <label for="Phone">Phone : </label>
         <input  id="Phone" />
@@ -35,15 +35,19 @@
 
         <br />
         <br />
-        <div class="form-group">
+        <div class="form-group text-center aligns-items-center">
 
         <label for="Message">Message : </label>
         <textarea  id="Message"></textarea>
     </div>
-
+    <br />
+    <br />
+    <br />
         <br />
-        <button onclick="myFun()" style="
-          width: 100px;
+        <div class="form-group text-center">
+
+<button onclick="myFun()" style="
+          width: 110px;
           height: 50px;
           background: #16be45;
           border: none;
@@ -51,6 +55,7 @@
         ">
             <i style="font-size: xx-large; color: white" class="fa fa-whatsapp my-float">Send</i>
         </button>
+        </div>
     </form>
     <script>
         function myFun(){
